@@ -9,7 +9,8 @@ sudo apt-get -y install make
 
 # install golang
 wget https://go.dev/dl/go1.22.3.linux-amd64.tar.gz
-sudo tar -C /bin -xzf go1.22.3.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.22.3.linux-amd64.tar.gz
+export PATH=$PATH:/usr/local/go/bin
 
 # install ethereum client
 wget https://github.com/ethereum/go-ethereum/archive/refs/tags/v1.13.15.tar.gz
