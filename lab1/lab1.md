@@ -132,6 +132,9 @@ eth.toWei(<WARTOSC>)
 1. Przeanalizuj kod źródłowy kontraktu 1_Storage.sol
 ![alt text](image-2.png)
 2. Skompiluj kontrakt 1_Storage.sol i spróbuj go wdrożyć w sieci. 
+![alt text](image-4.png)
+![alt text](image-3.png)
+
 3. Uruchom obie metody kontraktu kilka razy. Spróbuj też uruchomić kontrakt wdrożony przez inną osobę.
 
     - Czy działanie jest zgodne z oczekiwaniami? 
